@@ -133,18 +133,6 @@
 
 /* tabbar */
 
-/* Center align tabs */
-#tabbrowser-arrowscrollbox:not([overflowing]) {
-  --uc-flex-justify: center !important;
-}
-scrollbox[orient="horizontal"] {
-  justify-content: var(--uc-flex-justify, initial) !important;
-}
-scrollbox[smoothscroll="true"] {
-  display: flex !important;
-  justify-content: center !important;
-}
-
 /* Hide the secondary Tab Label
  * e.g. playing indicator (the text, not the icon) */
 .tab-secondary-label {
